@@ -33,6 +33,31 @@ console.log(myMap.get('name'))
 myMap.set('suren', 12)
 console.log(myMap.size)
 
+// set (object)
+
+// add delete has
+// size 
+
+let mySet = new Set();
+
+console.log(mySet)
+mySet.add(10)
+
+mySet.add(true)
+
+mySet.add('kumaran')
+
+mySet.add([10,20])
+
+mySet.add({name: 'suren', age: 25})
+
+mySet.add(10)
+
+mySet.delete('kumaran')
+
+console.log(mySet.has('kumaran'))
+
+console.log(mySet.size)
 
 
 
